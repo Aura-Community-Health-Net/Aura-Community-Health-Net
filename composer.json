@@ -1,0 +1,16 @@
+{
+    "name": "randima/aura-community-health-net1",
+   
+    "authors": [
+        {
+            "name": "Randima Dias",
+            "email": "randimamethminid525@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "require": {}
+}
