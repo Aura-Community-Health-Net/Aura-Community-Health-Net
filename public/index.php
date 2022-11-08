@@ -15,8 +15,8 @@ $app->router->get('/contact', [SiteController::class, 'contact']);
 $app->router->post('/contact', [SiteController::class, 'handleContact']);
 $app->router->get('/product-seller-signup', [AuthController::class, 'getProductSellerSignupPage']);
 $app->router->post('/product-seller-signup', [AuthController::class, 'registerProductSeller']);
-$app->router->get('/product-seller-signup', [AuthController::class, 'getProductSellerLoginPage']);
-$app->router->post('/product-seller-signup', [AuthController::class, 'loginProductSeller']);
+$app->router->get('/product-seller-login', [AuthController::class, 'getProductSellerLoginPage']);
+$app->router->post('/product-seller-login', [AuthController::class, 'loginProductSeller']);
 
 
 

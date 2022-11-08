@@ -1,0 +1,15 @@
+.product-seller-signup-form{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.form-input{
+    position: relative;
+    background-color: red;
+}
+
+
+.form-input i{
+    position: absolute;
+    transform: scale(2);
+}
