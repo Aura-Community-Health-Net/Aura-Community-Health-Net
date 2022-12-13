@@ -1,0 +1,11 @@
+.page button
+{
+    color: blue;
+    margin-left: 50px;
+    width: 3cm;
+    height: 1cm;
+    border-radius: 10px;
+    background-color: #008DFF;
+    margin-top: 100px;
+    border: none;
+}

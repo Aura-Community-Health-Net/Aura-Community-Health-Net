@@ -1,3 +1,8 @@
+
+@import "components/pharmacy.css";
+@import "components/pharmacylog.css";
+@import "components/PharmacyDashboard.css";
+@import "components/medicine.css";
 @import "components/input.css";
 @import "components/modal.css";
 @import "components/button.css";

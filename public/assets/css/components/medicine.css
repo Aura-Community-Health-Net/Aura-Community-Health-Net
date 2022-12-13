@@ -1,0 +1,365 @@
+.table1
+{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 1.5rem;
+   /* background-color: #F4F1F1;*/
+}
+
+.table1 th
+{
+    padding: 1rem;
+    background-color:#D9D9D9;
+    align-items: center;
+    font-family: "Roboto Light", serif;
+
+}
+
+.table1 tr{
+    padding:1rem;
+    text-align: center;
+    height: 1.5cm;
+    background-color:#F8F8F8;
+}
+
+.modal_button
+{
+    width: 80px;
+    height:40px;
+    align-self: center;
+    cursor: pointer;
+    background-color:blue;
+    border: none;
+    transition: all  0.2s ease-in-out;
+    border-radius: 1.5rem;
+
+}
+.modal_button:hover{
+    transform: translateY(-1px);
+    box-shadow: 0 0.5rem 1rem rgba(143,58, 229, 0.2);
+}
+
+.add img
+{
+    width: 50px;
+    height: 50px;
+}
+
+.form3
+{
+    margin-top: 50px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+.form3 table
+{
+    margin-left: 100px;
+    width: 500px;
+    background-color: #F4F1F1;
+
+
+
+}
+
+
+
+.form3 th
+{
+    padding: 1.5rem 1rem;
+    align-items: center;
+    font-family: "Roboto Light", serif;
+}
+
+.form3 tr{
+    padding:1rem 2cm;
+    align-items: center;
+
+
+}
+
+.table2 input
+{
+    border-left-style: hidden;
+    border-right-style: hidden;
+    border-bottom-style: dotted;
+    border-top-style: hidden;
+    height: 1cm;
+    text-align: center;
+    background-color: #F4F1F1;
+    margin-bottom: 2cm;
+
+
+
+
+
+}
+
+.table2
+{
+    border-radius: 1.5rem;
+    margin-bottom: 2cm;
+
+}
+
+.table2 td
+{
+    padding: 0.1cm;
+}
+
+
+
+.nostyle:focus
+{
+    outline: none;
+}
+
+.submit
+{
+    height: 0px;
+    width: 0px;
+  /*  background-color: red;*/
+    margin-left: 610px;
+    margin-top: -7px;
+    cursor: pointer;
+    background-color: #F4F1F1;
+    border: none;
+
+}
+
+#modal h3
+{
+    margin-top:1cm;
+}
+
+#modal
+{
+    height: 500px;
+    width: 500px;
+    color:black;
+    background-color: aliceblue;
+    position: fixed;
+    left: 50%;
+    top:50%;
+    transform: translate(-50% , -50%);
+    z-index: 100;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.5);
+    border-radius: 1rem;
+    padding: 1rem;
+    display: none;
+    text-align: center;
+    font-family: "Roboto Light", sans-serif;
+    font-weight: bold;
+}
+
+.modal_img
+{
+    width: 400px;
+    height: 300px;
+    align-self: center;
+    margin-top: 1cm;
+
+}
+
+.modal-open
+{
+    animation:scale 0.3s ease-in-out;
+}
+
+
+#overlay
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color:rgba(0,0,0,0.5);
+    z-index: 99;
+    display: none;
+
+}
+
+@keyframes scale{
+    0%
+    {
+        transform:scale(0.9);
+    }
+
+    100%{
+        transform: scale(1);
+    }
+}
+
+
+/*#modal_button
+{
+    height:30px ;
+    width: 10px;
+    background-color:#008DFF;
+    color:white ;
+    font-size: medium;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin-top: 0.8cm;
+
+}*/
+
+.plusbutton
+{
+    height: 1cm;
+    width:1cm;
+    margin-left: 75px;
+    margin-top: -3cm;
+    cursor: pointer;
+    background-color:#F4F1F1;
+
+
+}
+
+.med_img
+{
+    height: 50px;
+    width: 50px;
+
+}
+
+.plus_img
+{
+    height: 0.5cm;
+    width: 0.5cm;
+    cursor: pointer;
+    margin-left: 35px;
+    margin-bottom: 1.5cm;
+    background-color: #F4F1F1;
+    color: #F4F1F1;
+
+}
+
+.bin
+{
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+    padding: 0.5rem;
+
+}
+
+.pencil
+{
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+.med_add {
+    margin-left: 40px;
+    margin-top: -40px;
+}
+
+.med_add i
+{
+    width: 2.5cm;
+    height: 1cm;
+    background-color: white;
+    padding-left: 2.5rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    padding-top: 0.75rem;
+}
+
+#delete_button
+{
+    border: none;
+    background-color: white;
+
+}
+
+#deletex_button
+{
+    background-color: white;
+}
+
+#edit_button
+{
+    border: none;
+    background-color: white;
+}
+
+#editx_button
+{
+    background-color: white;
+}
+
+
+#modal1 h3
+{
+    margin-top:1cm;
+}
+
+#modal1
+{
+    height: 500px;
+    width: 500px;
+    color:black;
+    background-color: aliceblue;
+    position: fixed;
+    left: 50%;
+    top:50%;
+    transform: translate(-50% , -50%);
+    z-index: 100;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.5);
+    border-radius: 1rem;
+    padding: 1rem;
+    display: none;
+    text-align: center;
+    font-family: "Roboto Light", sans-serif;
+    font-weight: bold;
+}
+
+
+.modal1_img
+{
+    width: 400px;
+    height: 300px;
+    align-self: center;
+    margin-top: 1cm;
+
+}
+
+.modal1-open
+{
+    animation:scale 0.3s ease-in-out;
+}
+
+#overlay1
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color:rgba(0,0,0,0.5);
+    z-index: 99;
+    display: none;
+
+}
+
+#modal_button1
+{
+    height:30px ;
+    width: 10px;
+    background-color:#008DFF;
+    color:white ;
+    font-size: medium;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin-top: 0.8cm;
+
+}
+
