@@ -1,0 +1,16 @@
+.dashboard-container{
+    width: 100vw;
+    height: calc(100vh - 112.6px);
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+.of-hidden{
+    overflow: hidden;
+}
+
+.dashboard-content{
+    overflow-y: auto;
+    height: 100%;
+}

@@ -1,5 +1,15 @@
 @import "components/input.css";
+@import "components/modal.css";
+@import "components/button.css";
+@import "components/sidebar.css";
+@import "pages/product-seller-choose-category.css";
+@import "pages/product-seller-products.css";
+@import "pages/home.css";
+@import "layout/internal-dashboard.css";
+@import "pages/administrator-new-registrations.css";
 
-h1{
-    color: red;
+
+body{
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
