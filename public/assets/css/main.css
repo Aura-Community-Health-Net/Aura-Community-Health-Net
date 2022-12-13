@@ -1,3 +1,11 @@
-h1{
-    color: red;
+@import "components/pharmacy.css";
+@import "components/pharmacylog.css";
+@import "components/PharmacyDashboard.css";
+@import "components/medicine.css";
+@import "components/sidebar.css";
+
+
+body {
+    font-family: "Roboto Light", serif;
 }
+
