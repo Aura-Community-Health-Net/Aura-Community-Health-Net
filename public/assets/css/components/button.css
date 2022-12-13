@@ -1,0 +1,58 @@
+.btn{
+    padding: 0.35rem 3rem;
+    background-color: #008DFF;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: medium;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+    width: 300px;
+}
+
+.login-btn{
+    margin-top: 40px;
+}
+
+.ok-btn{
+    background-color: #008DFF;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: medium;
+    display: block;
+    cursor: pointer;
+    width: 100px;
+    padding-inline: 1rem;
+    padding-block: 0.3rem;
+}
+
+
+.cancel-btn{
+    background-color: #7ABCF1;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: medium;
+    display: block;
+    cursor: pointer;
+    width: 100px;
+    padding-inline: 1rem;
+    padding-block: 0.3rem;
+}
+
+.verify-btn{
+    background-color: #008DFF;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: medium;
+    display: block;
+    cursor: pointer;
+    width: 100px;
+    padding-inline: 1rem;
+    padding-block: 0.3rem;
+    margin-top: 20px;
+
+}
