@@ -1,11 +1,20 @@
+
 @import "components/pharmacy.css";
 @import "components/pharmacylog.css";
 @import "components/PharmacyDashboard.css";
 @import "components/medicine.css";
+@import "components/input.css";
+@import "components/modal.css";
+@import "components/button.css";
 @import "components/sidebar.css";
+@import "pages/product-seller-choose-category.css";
+@import "pages/product-seller-products.css";
+@import "pages/home.css";
+@import "layout/internal-dashboard.css";
+@import "pages/administrator-new-registrations.css";
 
 
-body {
-    font-family: "Roboto Light", serif;
+body{
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
-
